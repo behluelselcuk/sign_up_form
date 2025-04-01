@@ -6,12 +6,13 @@ body {
 
 
 /* === FORM-BILD === */
-.form-img {
-    height: 100vh;
-}
-
 .form-img-container {
     position: relative;
+}
+
+.form-img {
+    height: 100vh;
+    width: 40vw;
 }
 
 .title {
@@ -31,4 +32,30 @@ body {
 .title > h1 {
     color: #fff;
     text-transform: uppercase;
+}
+
+
+
+/* === FORM === */
+.form-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+}
+
+.form fieldset {
+    border: none;
+}
+
+.form > fieldset {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-element {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
