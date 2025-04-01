@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+
+
+/* === FORM-BILD === */
+.form-img {
+    height: 100vh;
+}
+
+.form-img-container {
+    position: relative;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 200px;
+    width: 100%;
+}
+
+.title-img {
+    height: 150px;
+}
+
+.title > h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
