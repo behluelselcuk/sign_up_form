@@ -21,38 +21,44 @@
         <form class="form" action="#">
             <h1>Get started</h1>
             <fieldset>
-                <div class="input-element">
-                    <label for="first_name">First Name</label>
-                    <input type="text" name="" id="first_name">
+                <div class="input-element-group">
+                    <div class="input-element">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="" id="first_name">
+                    </div>
+                    <div class="input-element">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name">
+                    </div>
                 </div>
 
-                <div class="input-element">
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name">
-                </div>
-
-                <div class="input-element">
-                    <label for="email">E-Mail</label>
-                    <input type="email" id="email">
-                </div>
-
-                <div class="input-element">
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" id="phone-number">
+                <div class="input-element-group">
+                    <div class="input-element">
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="input-element">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number">
+                    </div>
                 </div>
                 
-                <div class="input-element">
-                    <label for="password">Password</label>
-                    <input type="password" id="password">
-                </div>
-                
-                <div class="input-element">
-                    <label for="repeat-password">Confirm Password</label>
-                    <input type="password" id="repeat-password">
+                <div class="input-element-group">
+                    <div class="input-element">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    
+                    <div class="input-element">
+                        <label for="repeat-password">Confirm Password</label>
+                        <input type="password" id="repeat-password">
+                    </div>
                 </div>
             </fieldset>
-            <button type="submit">Create Account</button>
-            <p>Already have an account? <span class="log-in">Log in</span></p>
+            <div class="form-footer">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <span class="log-in">Log in</span></p>
+            </div>
         </form>
     </div>
 
