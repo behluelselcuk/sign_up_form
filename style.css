@@ -96,6 +96,10 @@ body {
     transform: translate(10px, 0);
 }
 
+.input-element label.filled {
+    transform: translate(10px, 0);
+}
+
 .input-element input {
     width: 100%;
     font-size: 1.5rem;
